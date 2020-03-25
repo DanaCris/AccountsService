@@ -11,7 +11,7 @@ import java.util.Optional;
 
 @RestController
 public class AccountController {
-    Logger logger = LoggerFactory.getLogger(AccountService.class);
+    Logger logger = LoggerFactory.getLogger(AccountController.class);
     @Autowired
     protected AccountService accountService;
 

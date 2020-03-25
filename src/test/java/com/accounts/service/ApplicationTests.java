@@ -17,6 +17,7 @@ class ApplicationTests {
 
     @Test
     void contextLoads() {
+        AssertionErrors.assertNotNull("AccountService was not loaded", accountService);
     }
 
     @Test
